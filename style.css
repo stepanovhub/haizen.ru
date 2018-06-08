@@ -1,6 +1,7 @@
 body {
   font-family: 'PT Sans', sans-serif;
   text-align: center;
+  color: #555;
 }
 
 h1, h2, h3, h4 {
@@ -10,6 +11,7 @@ h1, h2, h3, h4 {
 h1 {
   font-size: 150px;
   margin-bottom: 0;
+  margin-top: 100px;
 }
 
 .btn {
@@ -18,8 +20,8 @@ h1 {
 
 .btn a {
   padding: 10px 20px;
-  background-color: #973738;
-  border-color: #973738;
+  background-color: #B33A2F;
+  border-color: #B33A2F;
   border-width: 3px;
   border-style: solid;
   color:white;
@@ -31,12 +33,12 @@ h1 {
 
 .btn a:hover{
   background-color: white;
-  color:#973738;
+  color:#B33A2F;
   padding: 22px 40px;
   -webkit-transition: background-color 0.1s, color 0.1s, padding 0.1s;
   transition: background-color 0.1s, color 0.1s, padding 0.1s;
 }
 
 .red {
-  color: #973738; 
+  color: #B33A2F;
 }
