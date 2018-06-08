@@ -1,0 +1,42 @@
+body {
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 150px;
+  margin-bottom: 0;
+}
+
+.btn {
+  margin: 50px;
+}
+
+.btn a {
+  padding: 10px 20px;
+  background-color: #973738;
+  border-color: #973738;
+  border-width: 3px;
+  border-style: solid;
+  color:white;
+  font-weight: bold;
+  text-decoration: none;
+  -webkit-transition: background-color 0.2s, color 0.2s, padding 0.2s;
+  transition: background-color 0.2s, color 0.2s, padding 0.2s;
+}
+
+.btn a:hover{
+  background-color: white;
+  color:#973738;
+  padding: 22px 40px;
+  -webkit-transition: background-color 0.1s, color 0.1s, padding 0.1s;
+  transition: background-color 0.1s, color 0.1s, padding 0.1s;
+}
+
+.red {
+  color: #973738;
+}
